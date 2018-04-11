@@ -3,6 +3,11 @@ package it.polito.tdp.toto;
 import java.util.HashSet;
 import java.util.Set;
 
+//Previsione è un insieme di valori (un set di risultato)
+//è set, non lista, perchè gli elementi non sono mai ripetuti
+//Previsione è una riga della tabella del Totocalcio, ciascuna casellina è un risultato
+
+
 public class Previsione {
 	
 	private Set<Risultato> valori ;

@@ -1,7 +1,12 @@
 package it.polito.tdp.toto;
 
+//è elenco di previsioni
+
 import java.util.ArrayList;
 import java.util.List;
+
+//è elenco di previsioni
+//prendo il pronostico e lo espando in tante schedine, ogni schedina sarà
 
 public class Pronostico {
 
@@ -31,4 +36,14 @@ public class Pronostico {
 		return sb.toString() ;
 	}
 
+	public Previsione get(int i) {
+		
+		return this.colonna.get(i);
+		//Mi dice qual è la previsione di quella partita
+	}
+
+	
+	public int getN() {
+		return this.N;
+	}
 }
